@@ -1,0 +1,21 @@
+
+.heart {
+  font-size: 150px;
+  color: #e00;
+  animation: beat .50s infinite alternate;
+  transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+  to { transform: scale(1.2); }
+}
+
+
+body{
+
+  color: #AA062B;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
